@@ -1,0 +1,48 @@
+'MMEDIT!!! Basic Version = CMM2
+'MMEDIT!!! Port = COM13:115200:10,300
+'MMEDIT!!! Device = CMM2
+  SETPIN 31, DOUT 'set pin 31 to latch the chip
+  SPI OPEN 195315, 0, 8 'mode 0, data size is 16 bits
+  
+  shiftno = 1 'number of shift registers(each card has 2 shift registers)
+  
+  DIM tosend(shiftno)
+  DIM cnt = 1
+  DIM cnt2 = 0
+  
+  
+SUB ShiftSend c
+  PIN(31) = 0
+  For i=c-1 to 0 STEP -1
+    junk = SPI(tosend(i)) ' send the command and ignore the return
+    PRINT tosend(i)
+  NEXT i
+  PIN(31) = 1
+END SUB
+  
+  
+SUB ShiftArray c
+  
+  if tosend(cnt2)<16 THEN ' send 5 bit
+    tosend(cnt2)=tosend(cnt2)<<1
+  ELSE
+    cnt=1
+    tosend(cnt2)=0
+    cnt2=cnt2+1
+    IF cnt2 > shiftno-1 THEN cnt2 = 0
+    tosend(cnt2)=1 'seed next value in array
+  END IF
+  
+END SUB
+  
+tosend(cnt2)=1 'iniciate array with value to shift
+
+  Do
+    
+    ShiftArray(cnt2)
+    ShiftSend(shiftno)
+    PAUSE 500
+  
+  Loop
+  
+  SPI CLOSE
