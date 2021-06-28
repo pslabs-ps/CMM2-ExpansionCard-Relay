@@ -4,7 +4,7 @@
   SETPIN 31, DOUT 'set pin 31 to latch the chip
   SPI OPEN 195315, 0, 8 'mode 0, data size is 16 bits
   
-  shiftno = 1 'number of shift registers(each card has 2 shift registers)
+  shiftno = 4 'number of shift registers(each card has 2 shift registers)
   
   DIM tosend(shiftno)
   DIM cnt = 1
@@ -41,7 +41,7 @@ tosend(cnt2)=1 'iniciate array with value to shift
     
     ShiftArray(cnt2)
     ShiftSend(shiftno)
-    PAUSE 500
+    PAUSE 100
   
   Loop
   
