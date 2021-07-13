@@ -2,14 +2,21 @@
 
 <img src="Images/card_fut.png" width="800">
 
-Schematic can be found here: [schematic REV A v02](/Schematic/relay_revA_v03.pdf)
 
+
+Schematic can be found here: [schematic REV A v02](/Schematic/relay_revA_v03.pdf)
 Expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
+
+
 
 
 # Power source setup
 Below You can find possible power source setup. Use only 2 jumpers!
 <img src="Images/pow_sel.png" width="800">
+
+
+
+
 
 # Single card setup - no SPI
 In this mode maximite pins are used to activate relays. Using jumper wires connect pins with relay inputs as shown below:
@@ -18,9 +25,16 @@ In this mode maximite pins are used to activate relays. Using jumper wires conne
 Code example:
 
 
+
+
+
 # Single card setup in SPI mode
 Set up a card as shown below:
 <img src="Images/single_spi.png" width="800">
+
+
+
+
  
 # Multiple card in SPI mode setup
 Below You can find example of 4 card daisy chained operated by SPI interface:
@@ -49,6 +63,10 @@ All cards are using power taken from Maximite (red jumpers), realys are connecte
  1. Overflowed QH signal is used as MOSI now, this signal is taken from x3 data line (green jumper), SCK remains unchanged (set to pin 23 - yellow jumper)
  2. Pin 31 is used to latch shift register chip (blue jumper)
  3. Since this is last card Overflowed shift register data (QH) are not needed any longer. If You need to conect another card You cand send it for example to x4 data line
+ 
+ Code example 1:
+ 
+ Code Example 2:
  
  
  
