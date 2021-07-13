@@ -5,10 +5,11 @@
 
 
 Schematic can be found here: [schematic REV A v02](/Schematic/relay_revA_v03.pdf)
+
 Expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
-
-
-
+\
+\
+\
 
 # Power source setup
 Below You can find possible power source setup. Use only 2 jumpers!
