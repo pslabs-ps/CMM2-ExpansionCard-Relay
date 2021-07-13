@@ -9,6 +9,7 @@ Expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs
 <br>
 <br>
 <br>
+
 # Power source setup
 Below You can find possible power source setup. Use only 2 jumpers!
 <img src="Images/pow_sel.png" width="800">
@@ -16,6 +17,7 @@ Below You can find possible power source setup. Use only 2 jumpers!
 <br>
 <br>
 <br>
+
 # Single card setup - no SPI
 In this mode maximite pins are used to activate relays. Using jumper wires connect pins with relay inputs as shown below:
 <img src="Images/simple_con.png" width="800">
@@ -25,13 +27,15 @@ Code example:
 <br>
 <br>
 <br>
+
 # Single card setup in SPI mode
 Set up a card as shown below:
 <img src="Images/single_spi.png" width="800">
 
 <br>
 <br>
-<br> 
+<br>
+ 
 # Multiple card in SPI mode setup
 Below You can find example of 4 card daisy chained operated by SPI interface:
 <img src="Images/multiple_cards.png" width="800">
