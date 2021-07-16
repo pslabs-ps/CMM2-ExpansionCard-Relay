@@ -2,6 +2,7 @@
 
 <img src="Images/card_fut.png" width="800">
 <br>
+
 Schematic can be found here: [schematic REV A v02] (/Schematic/relay_revA_v03.pdf)
 
 Expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
