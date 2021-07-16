@@ -48,7 +48,7 @@ tosend(cnt2)=1 'iniciate array with value to shift
 
   Do
     
-    for j=0 to 5
+    for j=0 to 20
       ShiftArray(cnt2)
       ShiftSend(shiftno)
       PAUSE 100
