@@ -361,9 +361,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="606.49915"
-     inkscape:cy="467.36323"
+     inkscape:zoom="0.35"
+     inkscape:cx="-101.94794"
+     inkscape:cy="526.55374"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1795,7 +1795,7 @@
       </g>
     </g>
     <g
-       id="g1107"
+       id="g1671"
        inkscape:export-filename="G:\temp\simple_con.png"
        inkscape:export-xdpi="224.75"
        inkscape:export-ydpi="224.75">
@@ -1824,27 +1824,27 @@
       <path
          inkscape:connector-curvature="0"
          id="path4854"
-         d="m 117.83622,195.39831 19.84375,-16.72544"
+         d="m 117.83622,192.45835 19.84375,-16.72544"
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#DotM)" />
       <path
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6726);marker-end:url(#marker6826)"
-         d="m 120.76553,195.39831 19.84375,-16.72544"
+         d="m 120.76553,192.45835 19.84375,-16.72544"
          id="path6722"
          inkscape:connector-curvature="0" />
       <path
          inkscape:connector-curvature="0"
          id="path7218"
-         d="M 123.69485,195.39831 143.5386,178.67287"
+         d="M 123.69485,192.45835 143.5386,175.73291"
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7222);marker-end:url(#marker7334)" />
       <path
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker7610);marker-end:url(#marker7734)"
-         d="m 126.62417,195.39831 19.84375,-16.72544"
+         d="m 126.62417,192.45835 19.84375,-16.72544"
          id="path7606"
          inkscape:connector-curvature="0" />
       <path
          inkscape:connector-curvature="0"
          id="path1089"
-         d="m 129.53073,195.33149 19.84375,-16.72544"
+         d="m 129.53073,192.39153 19.84375,-16.72544"
          style="fill:#ff0000;stroke:#ff0000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1093);marker-end:url(#marker1097)" />
     </g>
   </g>
