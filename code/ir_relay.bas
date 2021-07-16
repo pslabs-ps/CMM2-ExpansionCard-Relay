@@ -133,7 +133,7 @@ SUB IR_Int
       skey=1 'set to 0, next key will be the relay key
       CardNo = KeyC(KeyCode) 'save the key press to CarNo value
       IF CardNo = 0 THEN PRINT "All cards selected, press 0 to turn OFF all relays, 1 to turn ON all relays" 'if the card 0 was selected we operate all cards and relays
-    ELSE PRINT "Card no. " CardNo " has been selected, enter relay no.:" 'only selected card will be operated
+      ELSE PRINT "Card no. " CardNo " has been selected, enter relay no.:" 'only selected card will be operated
     else
       RelayNo = KeyC(KeyCode) 'save value of selected relay
       IF RelayNo < 9 and RelayNo > 0 THEN 'maximum relays on vard is 8, 0 is different mode (all cards select)
