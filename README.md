@@ -23,7 +23,7 @@ Below You can find possible power source setup. Use only 2 jumpers!
 In this mode maximite pins are used to activate relays. Using jumper wires connect pins with relay inputs as shown below:
 <img src="Images/simple_con.png" width="800">
 
-Code example:
+## Code example:
 
 ```basic
 SETPIN 3, DOUT  'Relay 1 pin
@@ -112,7 +112,7 @@ All cards are using power taken from Maximite (red jumpers), realys are connecte
  2. Pin 31 is used to latch shift register chip (blue jumper)
  3. Since this is last card Overflowed shift register data (QH) are not needed any longer. If You need to conect another card You cand send it for example to x4 data line
  
- Code example 1:
+## Code example 1:
  ```basic
  SETPIN 31, DOUT 'set pin 31 to latch the shift register chip
 SPI OPEN 195315, 0, 8 'mode 0, data size is 16 bits
@@ -138,7 +138,7 @@ SPI OPEN 195315, 0, 8 'mode 0, data size is 16 bits
 SPI CLOSE
  ```
  
- Code Example 2:
+## Code Example 2:
  ```basic
  'MMEDIT!!! Basic Version = CMM2
 'MMEDIT!!! Port = COM13:115200:10,300
